@@ -1,6 +1,6 @@
-function combine(n1, n2) {
-    var result = n1 + n2;
-    return result;
-}
-var combinedAges = combine(30, 26);
-console.log(combinedAges);
+var person = {
+    name: "Mathieu",
+    age: "31",
+    height: "183 cm"
+};
+console.log(person);

@@ -1,13 +1,17 @@
-function combine(input1: number | string, input2: number | string, resultConversion: "as-number" | "as-text") {
-    let result;
+let userInput: unknown
+let userName: string
 
-    if (typeof input1 === "number" && typeof input2 === "number" || resultConversion === "as-number") {
-        result = +input1 + +input2
-    } else {
-        result = input1.toString() + input2.toString()
-    }
-    return result
+userInput = 5
+userInput = "Mat"
+
+// userName = userInput ERROR
+
+if (typeof userInput === "string") {
+    userName = userInput
 }
 
-const combinedAges = combine(30, 26, "as-number")
-console.log(combinedAges);
+function generateError(message: string, code: number): never {
+    throw { message: message, errorCode: code }
+}
+
+generateError("An error occured!", 500)

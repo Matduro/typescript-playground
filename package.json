@@ -1,0 +1,23 @@
+{
+  "name": "typescript-playground",
+  "version": "1.0.0",
+  "description": "A playground for testing typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matduro/typescript-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matduro/typescript-playground/issues"
+  },
+  "homepage": "https://github.com/Matduro/typescript-playground#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

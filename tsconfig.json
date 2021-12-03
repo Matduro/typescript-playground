@@ -109,7 +109,7 @@
   //   "analytics.ts"
   // ]
   "files": [
-    "app.ts",
+    "src/app.ts",
     "src/analytics/analytics.ts"
   ]
 }
